@@ -1,3 +1,10 @@
+#This script is essential to taking the raw box score data compiled from the scraper and transforming it into structured, adjusted statistics.
+#The team AND individual statistics are converted to raw percentages, then per possession stats, then opponent adjusted and home-away adjusted stats
+#Opponent adjustments are intended to "neutralize" each team's and player's stats to account for various schedule strength
+#Adjusting tries to make each team's/player's stats to be what would be expected of them on a neutral floor against the league average opponent
+#The second half of the file involves creating master databases of past seasons stats to be used for regression, CARTs and clustering.
+#Dimensionality reduction and feature selection for these machine learning models are exhibited at the bottom of the file.
+
 #NCAA TRANSFORM
 
 library(rvest)
