@@ -1,3 +1,6 @@
+#This file runs an optimizer to determine the ideal daily fantasy lineups for college basketball games.
+#It cycles through all possible combinations of a lineup and returns the highest average expected value.
+
 dfs_showdown <- function(ccc, uuu) {
   
   sd_combine(1)
