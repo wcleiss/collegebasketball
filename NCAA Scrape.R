@@ -1,3 +1,6 @@
+#This essential file scrapes box scores from NCAA.org and places each box score into each team's own individual box score CSV file.
+#This also allows for a "rehab" process in which I "rewind" the model back to a specific date.
+
 library(rvest)
 library(readxl)
 library(openxlsx)
