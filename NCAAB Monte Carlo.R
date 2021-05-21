@@ -1,3 +1,7 @@
+#This file contains the monte carlo simulations for a college basektball game.
+#It simulates in two ways - one by using individual statistics, and one uses each team's statistics as a whole
+#The indivudal mode is more complex as it calculates a different floor lineup for both teams each possession based on probability of each player being on the floor.
+
 library(rvest)
 library(readxl)
 library(openxlsx)
