@@ -1,3 +1,10 @@
+#This file runs each day's games through various prediction methods and structures the outputs into a file titled formatted_wpt.
+#The prediction methods used are 2 monte carlo simulation based on individaul or team stats, a linear/logistic regression(known as the Blender), a kMeans Clustering Approach
+  #known as the ATM, a and random forest known as the Simple Model.
+#The 2nd half of the script contains a lot of train-test-split approaches for hyper parameter tuning of machine learning methods to translate raw model outputs into
+  #more actionable approaches. Specifically random forest and logistic regression methods are used to decode raw outputs for 2nd half and pre game wagers.
+
+
 library(rvest)
 library(readxl)
 library(openxlsx)
