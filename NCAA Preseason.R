@@ -1,3 +1,10 @@
+#This R Script is calculates preseason projects for all 357 Division 1 college basketball teams among 40 different statistics.
+#The projections are based on a triumvirate of weighted baseline, linear regression based on last year's stats and returning players, and nearest neighbor analysis also based
+  #on returning players and last year's stats(also known as the fingerprinter).
+#Recruiting is measured but last year I determined recruiting has minimal impact, if any, on a team's projected performance based on backtesting.
+#Coaches are used to calculate projected pace/tempo for the team.
+
+
 #Coach-Tempo Merge
 
 coach_tempo_merge <- function(xxxx) {
